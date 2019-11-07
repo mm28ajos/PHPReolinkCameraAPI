@@ -2,11 +2,11 @@
 
 A PHP class which provides access to Reolink's IP cameras.
 
-This class can be installed manually or using composer/[packagist](https://packagist.org/packages/mm28ajos/PHPReolinkCameraAPI) for easy inclusion in your projects.
+This class can be installed manually or using composer/[packagist](https://packagist.org/packages/mm28ajos/php-reolink-camera-api) for easy inclusion in your projects.
 
 ## Requirements
 
-- a Reolink camera (test with RLC-420-5MP, Build No. build 19061408, Hardware No. IPC_51516M5M, Configuration Version v2.0.0.0, Firmware Version v2.0.0.448_19061408)
+- a Reolink camera (tested with RLC-420-5MP, Build No. build 19061408, Hardware No. IPC_51516M5M, Configuration Version v2.0.0.0, Firmware Version v2.0.0.448_19061408)
 - a web server with PHP installed (tested with PHP cli Version 7.3.11-1~deb10u1)
 - network connectivity between this web server and the camera and port (normally TCP port 80)
 
@@ -117,7 +117,7 @@ GET:
 - [ ] Zoom
 - [ ] Focus
 - [ ] Image (Brightness, Contrass, Saturation, Hue, Sharp, Mirror, Rotate)
-- [x] Near Infraread Light
+- [x] Near Infrared Light
 - [ ] Advanced Image (Anti-flicker, Exposure, White Balance, DayNight, Backlight, 3D-NR)
 - [ ] Image Data -> "Snap" Frame from Video Stream
 
@@ -144,7 +144,7 @@ SET:
 - [ ] Zoom
 - [ ] Focus
 - [ ] Image (Brightness, Contrass, Saturation, Hue, Sharp, Mirror, Rotate)
-- [x] Near Infraread Light
+- [x] Near Infrared Light
 - [ ] Advanced Image (Anti-flicker, Exposure, White Balance, DayNight, Backlight, 3D-NR)
 
 ## Contribute
