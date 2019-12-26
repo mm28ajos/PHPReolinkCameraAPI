@@ -171,7 +171,7 @@ class Client {
         if ($this->checkResponse($this->queryCamera($logoutParameters, 'Logout')))
         {
             $this->is_loggedin = false;
-            this->token = '';
+            $this->token = '';
             return true;
         } else {
             return false;
